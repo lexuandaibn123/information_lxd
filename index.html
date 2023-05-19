@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Information</title>
+    <link rel="icon" href="./images/favicon.png" />
+    <base target="_blank" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <div id="avatar">
+        <img src="./images/avatar.jpg" id="img-avatar" />
+        <span id="user_information"></span>
+      </div>
+      <div id="under-avatar" style="display: none">
+        <form id="my-form">
+          <input type="text" id="password" name="pass" placeholder="Password" />
+          <button type="submit">Submit</button>
+        </form>
+        <span id="my-map"></span>
+        <span id="demo"></span>
+      </div>
+      <div id="the-start">
+        <span class="dream">Dream come true</span>
+        <br />
+        <span class="text-start">My Information</span>
+      </div>
+      <div class="information">
+        <span class="my-information">Name: Lê Xuân Đại</span>
+        <span class="my-information">Date_of_birth: 31-10-2004</span>
+        <span class="my-information">From: Bắc Ninh</span>
+        <span class="my-information"
+          >At: Ha Noi University of Science and Technology</span
+        >
+      </div>
+      <div class="my-button">
+        <button class="button-information" onclick="copyText('0344211600')">
+          Phone_Number: 0344211600
+        </button>
+        <button
+          class="button-information"
+          onclick="copyText('lexuandaibn@gmail.com')"
+        >
+          Email: lexuandaibn@gmail.com
+        </button>
+        <button class="button-information" onclick="go_fb()">
+          Facebook: Lê Xuân Đại (Click)
+        </button>
+        <button class="button-information" onclick="copyText('0344211600')">
+          Zalo: 0344211600
+        </button>
+      </div>
+      <div class="the-end">
+        <span class="Thanks">Thanks for visiting, see you soon!</span>
+      </div>
+    </div>
+  </body>
+  <script src="./project.js"></script>
+</html>

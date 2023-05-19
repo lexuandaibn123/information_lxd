@@ -1,0 +1,90 @@
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  background-image: url(./images/banner.jpg);
+  width: 100%;
+  height: 864px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner {
+  color: whitesmoke;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+}
+#avatar {
+  padding-top: 30px;
+}
+#img-avatar {
+  height: 200px;
+  border-radius: 100px;
+  margin-left: 657.2px;
+  border: 3px solid greenyellow;
+  cursor: pointer;
+}
+#user_information {
+  float: right;
+  margin-top: 50px;
+  margin-right: 60px;
+  font-size: 20px;
+}
+#under-avatar {
+  text-align: center;
+}
+#my-form {
+  padding-bottom: 15px;
+}
+#the-start {
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+.dream {
+  font-style: italic;
+}
+.text-start {
+  font-family: "Times New Roman", Times, serif;
+}
+.dream,
+.text-start {
+  font-size: 30px;
+}
+.information,
+.my-button {
+  padding-bottom: 15px;
+}
+
+.my-information,
+.button-information {
+  display: block;
+  margin-left: 38%;
+  font-size: 23px;
+  margin-top: 2px;
+}
+.button-information {
+  font-size: 15px !important;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+  opacity: 2;
+  color: whitesmoke;
+  width: 375px;
+  height: 40px;
+  border: 2px solid whitesmoke;
+  border-radius: 40px;
+  margin-top: 4px !important;
+}
+.the-end {
+  text-align: center;
+  font-size: 30px;
+}
+.button-information {
+  box-shadow: 0 4px 4px 0 rgba(255, 246, 246, 0.5);
+}
+.button-information:hover {
+  background-color: rgb(84, 91, 189);
+}
+.button-information:active {
+  background-color: rgb(33, 35, 63);
+  box-shadow: 0 0.7px rgb(39, 35, 35);
+  transform: translateY(0.7px);
+}
